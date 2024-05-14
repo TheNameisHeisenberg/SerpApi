@@ -10,7 +10,7 @@ import SwiftUI
 import OSLog
 
 class PoiFetcher {
-    private let apiKey = "0364704b8b7c1a7c6881f9d4f994126ef3239772945861bc3bbfbe40c30aa834"
+    private let apiKey = "" //replace with actual API Key 
     private let logger = Logger()
     
     func fetchPoiData(for placeId: String, completion: @escaping (Result<[FetchedPoi], Error>) -> Void) {
